@@ -77,3 +77,29 @@ for (let num = 0; num < 20; num++) {
     console.log(`${num} is even`);
   }
 }
+
+/* The Calculator */
+
+function squareNumber(num) {
+  return num * num;
+}
+let result = squareNumber(3);
+console.log(`The result of squaring the number 3 is ${result}.`);
+
+function halfNumber(num) {
+  return num / 2;
+}
+let result2 = halfNumber(5);
+console.log(`Half of 5 is ${result2}.`);
+
+function percentOf(num1, num2) {
+  return (num1 / num2) * 100;
+}
+let result3 = percentOf(10, 20);
+console.log(`10 is ${result3}% of 20`);
+
+function areaOfCircle(radius) {
+  return Math.PI * radius * radius;
+}
+let result4 = areaOfCircle(2);
+console.log(`The area for a circle with radius 2 is ${result4}`);
